@@ -1,12 +1,4 @@
-#ODU1NjkwNzQ3NzY3MTYwODMz.YM2KHA.UUm9dep2hjmBbQsGk17zZ9HJO_c
-
-#https://discord.com/api/oauth2/authorize?client_id=855708495818129428&permissions=8&scope=bot
-
-#ODU1NzA4NDk1ODE4MTI5NDI4.YM2aow.3ipoutbwiBeQcrQmVgaWfpXShPA
-
-#https://replit.com/@JackGardnerRMIT/KanyeNorth#main.py
-
-#Main.py
+#Main
 
 import discord
 from discord.ext import commands
@@ -19,7 +11,7 @@ client = commands.Bot(command_prefix='?', intents = discord.Intents.all())
 for i in range(len(cogs)):
     cogs[i].setup(client)
 
-client.run("ODU1NzA4NDk1ODE4MTI5NDI4.YM2aow.3ipoutbwiBeQcrQmVgaWfpXShPA")
+client.run("") #Insert token here
 
 #Music.py
 
